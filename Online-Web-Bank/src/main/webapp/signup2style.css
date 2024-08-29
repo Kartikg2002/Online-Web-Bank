@@ -1,0 +1,106 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    color:rgb(22, 18, 18);
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+    background: linear-gradient(0deg, #16c6f3 0%, #f1f1f1 80%);
+}
+.container{
+    max-width: 700px;
+    width:100%;
+    padding:25px 30px;
+    border-radius: 25px;
+    box-shadow: -2px 0px 20px 0px rgb(48 100 181 / 47%);
+    background: linear-gradient(307deg, #45b1d5 0%, #e2f2f7 80%);  
+}
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+h2{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    
+}
+.main-input-box{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding:20px 0px;
+}
+.user-input-box{
+    display: flex;
+    flex-wrap: wrap;
+    width:calc(100%/2);
+    margin-bottom: 20px;
+}
+.user-input-box:nth-child(2n){
+    justify-content: flex-end;
+}
+.main-input-box .details{
+    display: block;
+    width: 90%;
+    font-weight: 550;
+}
+.main-input-box input[type="text"]{
+    width: 90%;
+    border-radius: 3px;
+    border-style: none;
+}
+.main-input-box select{
+	width: 90%;
+    border-radius: 3px;
+    border-style: none;	
+}
+
+.radiobtn1{
+    width:45%;
+}
+.radiobtn2{
+    width:45%;
+}
+.user-input-btn{
+    position: relative;
+    bottom:-18px;
+    margin-top:30px;
+}
+.user-input-btn button{
+    background: linear-gradient(135deg,#16c6f3 0%, #f1f1f1 80%);
+    color:rgb(34, 103, 214);
+    height:40px;
+    width:120px;
+    font-size: 20px;
+    font-weight: 800;
+    border:2px solid black;
+    box-shadow:0px 2px 3px rgb(76, 73, 73)  ;
+    cursor: pointer;
+    letter-spacing: 3px;
+    border: none;
+}
+.container:hover{
+    box-shadow: 1px -1px 6px 0px rgb(79 68 68);
+    transition: .5s;
+}
+
+
+@media only screen and (max-width:570px){
+    .radiobtn1{
+        width:90%;
+    }
+    .radiobtn2{
+        width:90%;
+    }
+    .formno h1{
+		font-size: 1.5rem;
+	}
+}

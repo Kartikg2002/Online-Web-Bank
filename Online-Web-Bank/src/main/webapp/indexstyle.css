@@ -1,0 +1,313 @@
+body {
+	font-family: 'Poppins', Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f6f6f6;
+}
+
+.navbar {
+	margin-top: 0;
+	background-color: #01bfff;
+	padding: 1.5vh 0vw;
+	/* Adjusted padding for better balance */
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+	width: 100%;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 12vw;
+	/* Reduced padding for better alignment */
+}
+
+.logo {
+	margin: 0;
+	font-size: 24px;
+	color: #fbfbfb;
+}
+
+.nav-links {
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-links li {
+	padding: 0 1vw;
+	/* Adjusted padding */
+}
+
+.nav-links li a {
+	text-decoration: none;
+	color: #fffafa;
+	transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+	color: #007bff;
+}
+
+.nav-links i {
+	font-size: 1.2vw;
+	font-weight: 500;
+	display: none;
+}
+
+.mainbody {
+	padding: 2vw 5vw;
+	/* Increased top and bottom padding */
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	/* Adjusted alignment */
+}
+
+.leftbody {
+	width: 45vw;
+	/* Adjusted width */
+	height: auto;
+	/* Changed from fixed height to auto */
+	overflow: auto;
+	padding-right: 2vw;
+	/* Added padding for spacing */
+}
+
+.right-body {
+	width: 30%;
+	background-color: #002180;
+	padding: 2vw;
+	/* Added padding for internal spacing */
+	margin: 1vw 0;
+	/* Adjusted margin */
+}
+
+.right-body h1 {
+	text-align: center;
+	font-size: 1.5rem;
+	/* Adjusted font size */
+	color: white;
+	margin: 0;
+	/* Removed margin for consistent spacing */
+}
+
+.right-body .main-input {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 1vw;
+	/* Adjusted padding */
+}
+
+.user-input {
+	display: flex;
+	flex-direction: column;
+	/* Changed to column for better layout */
+	width: 100%;
+	margin-bottom: 1.5rem;
+	/* Adjusted margin for spacing */
+}
+
+.user-input label {
+	width: 100%;
+	font-size: 1rem;
+	/* Adjusted font size */
+	font-weight: 500;
+	color: white;
+	margin-bottom: 0.5rem;
+	/* Added margin for spacing */
+}
+
+.user-input input[type=text] {
+	width: 100%;
+	border-radius: 3px;
+	border: none;
+	font-size: 1rem;
+	/* Adjusted font size */
+	padding: 0.5rem;
+	/* Added padding */
+}
+
+.form-btn {
+	text-align: center;
+	width: 100%;
+	padding: 0.5rem 0;
+	/* Adjusted padding */
+}
+
+.form-btn button {
+	width: 80%;
+	/* Adjusted width */
+	background: rgb(22, 22, 22);
+	letter-spacing: 2px;
+	/* Reduced letter-spacing */
+	font-weight: 600;
+	font-size: 1rem;
+	/* Adjusted font size */
+	color: white;
+	cursor: pointer;
+	padding: 0.75rem;
+	/* Added padding */
+}
+
+.btns {
+	text-align: center;
+	width: 100%;
+	padding: 0.5rem 0;
+	/* Adjusted padding */
+}
+
+.btns button {
+	width: 80%;
+	background: linear-gradient(135deg, #01bfff, #007bff);
+	letter-spacing: 2px;
+	/* Reduced letter-spacing */
+	font-weight: 600;
+	font-size: 1rem;
+	/* Adjusted font size */
+	color: white;
+	cursor: pointer;
+	padding: 0.75rem;
+	/* Added padding */
+}
+
+.leftbody>p {
+	font-size: 1.5rem;
+	/* Adjusted font size */
+}
+
+.leftbody>p span {
+	font-size: 3rem;
+	/* Adjusted font size */
+	color: #007bff;
+}
+
+.login-form:hover {
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+	transition: ease-in-out 0.4s;
+}
+
+.leftbody>h1 {
+	font-size: 1.5rem;
+	/* Adjusted font size */
+	width: 100%;
+	/* Full width */
+	margin-bottom: 1rem;
+	/* Added margin */
+}
+
+.sepration {
+	height: 2px;
+	width: 100%;
+	background-color: #01bfff;
+	margin: 1rem 0;
+	/* Added margin for spacing */
+}
+
+.lowermain {
+	display: flex;
+	flex-direction:column;
+	justify-content: space-between;
+	align-items: flex-start;
+    padding: 0vw 3vw;
+	/* Adjusted padding */
+	flex-wrap: wrap;
+}
+
+.lowermainleft {
+	width: 51vw;
+	/* Adjusted width */
+}
+.lowermainleft h2{
+	font-size: 3rem;
+}
+
+.lowermainright {
+	width: 90vw;
+	/* Adjusted width */
+}
+
+.lowermainleft>p {
+	font-size: 1.75rem;
+	/* Adjusted font size */
+	font-weight: 500;
+}
+
+.sepration2 {
+	height: 2px;
+	width: 90vw;
+	/* Adjusted width */
+	background-color: #01bfff;
+	margin: 2rem 0;
+	/* Added margin for spacing */
+}
+
+.bottomsepration {
+	display: flex;
+	justify-content: center;
+}
+
+.bottommain {
+	display: flex;
+	justify-content: space-between;
+	padding: 2vw 5vw;
+	/* Adjusted padding */
+	gap: 2vw;
+	/* Adjusted gap */
+}
+
+#signup a {
+	text-decoration: none;
+	color: #fbfbfb;
+}
+
+.buttonss {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 80%;
+}
+
+@media (max-width: 600px) {
+	.nav-links li a {
+		display: none;
+	}
+
+	.nav-links i {
+		display: block;
+		font-size: 6vw;
+	}
+
+	.leftbody h1 {
+		font-size: 5vw;
+	}
+
+	.leftbody p {
+		font-size: 4vw;
+	}
+
+	.leftbody p span {
+		font-size: 4vw;
+	}
+
+	.mainbody {
+		flex-direction: column;
+		/* Stacked layout for smaller screens */
+		align-items: center;
+		/* Centered content */
+	}
+
+	.right-body {
+		width: 90%;
+		/* Full width on small screens */
+	}
+}
+
+@media (max-width: 1702px) {
+	.leftbody p {
+		font-size: 2vw;
+		/* Adjusted font size */
+	}
+}
